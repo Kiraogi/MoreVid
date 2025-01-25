@@ -1,8 +1,18 @@
-from fastapi import APIRouters
+import jwt
+from fastapi import APIRouter
 from models import User
 from database import users_collection
 
 router = APIRouter()
+SECRET_KEY = "your_secret_key"
+ALGORITHM = "HS256"
+
+
+def generate_token(user):
+    # Создайте токен авторизации (например, с помощью JWT)
+    payload = {"username": user["username"]}
+    token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
+    return token
 
 @router.post("/register")
 def register(user: User):
