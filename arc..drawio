@@ -1,0 +1,224 @@
+<mxfile host="65bd71144e">
+    <diagram id="yy4xl0w_PsPggaEkynwZ" name="Page-1">
+        <mxGraphModel dx="1770" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="10" y="80"/>
+                            <mxPoint x="10" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-60" y="420" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="350"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="800"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint y="80"/>
+                            <mxPoint y="890"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Back (FastApi)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="3" target="81">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Front (react)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="-340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="4" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Аутентификация и авторизация&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="130" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="5" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Управление пользователями&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="220" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="9" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление фильмами и сериалами:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="310" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="10" target="54">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление контентом:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="400" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="11" target="57">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление рейтингами и отзывами:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="490" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="12" target="60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление поиском и фильтрацией:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="580" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Приложение" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="-180" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="16" target="63">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление статистикой и отчетами:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="670" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="17" target="66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление уведомлениями и оповещениями:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="760" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="18" target="76">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;span style=&quot;box-sizing: inherit; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; data-cy=&quot;chat-message-content&quot;&gt;&lt;b style=&quot;box-sizing: inherit;&quot;&gt;Управление интеграциями и API:&lt;/b&gt;&lt;/span&gt;&lt;div style=&quot;box-sizing: inherit; display: flex; padding: 0.4rem 0.5rem; color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot; class=&quot;Wrapper-sc-1rjf7nb-0 btRhSn&quot;&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="850" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="edgeStyle=none;shape=flexArrow;html=1;" edge="1" parent="1" source="19" target="89">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="БД" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-260" y="40" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для регистрации пользователей и создания учетных записей.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="140" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для аутентификации пользователей с использованием JWT (JSON Web Tokens).&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="455" y="140" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для авторизации пользователей, предоставляющий различные уровни доступа.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="140" width="260" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px;&quot;&gt;Модуль для создания, чтения, обновления и удаления (CRUD) пользователей.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="230" width="315" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для управления профилями пользователей, включая изменение информации и изображений профиля.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="230" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для создания, чтения, обновления и удаления (CRUD) фильмов и сериалов.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="320" width="235" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для управления жанрами, категориями и подкатегориями контента.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="320" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для управления информацией о фильмах и сериалах, включая описания, даты выхода, рейтинги и т. д.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="320" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для хранения и потоковой передачи видеофайлов фильмов и сериалов.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="410" width="265" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для управления транскодированием видеофайлов для поддержки различных устройств и форматов.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="410" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для создания, чтения, обновления и удаления (CRUD) рейтингов пользователей для фильмов и сериалов.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="500" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для создания, чтения, обновления и удаления (CRUD) отзывов пользователей о фильмах и сериалах.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="500" width="330" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px;&quot;&gt;Модуль для реализации поиска по фильмам и сериалам с использованием полнотекстового поиска.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="590" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для реализации фильтрации контента по жанрам, категориям, датам выхода и другим параметрам.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="545" y="590" width="295" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для создания и предоставления статистических отчетов, включая популярность контента, активность пользователей и другие показатели.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="680" width="420" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;sans-serif&quot; color=&quot;#e3e3e3&quot;&gt;&lt;span style=&quot;font-size: 15.4px; background-color: rgb(24, 24, 24);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для отправки уведомлений пользователям, включая оповещения о новых выпусках, рейтингах и других событиях.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="770" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="&lt;span style=&quot;color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px; text-align: start; background-color: rgb(24, 24, 24);&quot;&gt;Модуль для интеграции с внешними системами, включая интеграцию с платежными системами, социальными сетями и другими сервисами.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="860" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(24, 24, 24); color: rgb(227, 227, 227); font-family: sans-serif; font-size: 15.4px;&quot;&gt;Модуль для предоставления API для интеграции с другими приложениями и системами.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="860" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="&lt;h2 style=&quot;font-family: &amp;quot;YS Text&amp;quot;, -apple-system, BlinkMacSystemFont, Arial, Helvetica, sans-serif; font-size: var(--depot-text-xxl); line-height: var(--depot-text-xxl-line-m); margin: 0px; word-break: break-word; overflow-wrap: break-word; color: var(--depot-color-text-primary); text-align: start; background-color: rgb(34, 34, 36);&quot; class=&quot;CardHeader-Title Typo Typo_text_xxl Typo_line_m Typo_type_bold&quot;&gt;React&lt;/h2&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="-460" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="MongoDB" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-260" y="160" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
