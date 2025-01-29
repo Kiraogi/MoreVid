@@ -1,11 +1,12 @@
 import React from 'react';
+import Layout from './Layout';
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Welcome to MoreVid</h1>
+        <Layout>
+            <h2>Welcome to MoreVid</h2>
             <p>This is the home page of the application</p>
-        </div>
+        </Layout>
     );
 };
 
