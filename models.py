@@ -1,12 +1,13 @@
 from pydantic import BaseModel
 
-class User(BaseModel):
+class UserCreate(BaseModel):
     username: str
     email: str
     password: str
+    role: str
 
-from pydantic import BaseModel
-
+class User(UserCreate):
+    id: int
 
 class Video(BaseModel):
     title: str

@@ -1,34 +1,30 @@
-import jwt
 from fastapi import APIRouter
-from models import User
+from models import UserCreate, User
 from database import users_collection
+from auth import create_access_token
 
 router = APIRouter()
-SECRET_KEY = "your_secret_key"
-ALGORITHM = "HS256"
-
-
-def generate_token(user):
-    # Создайте токен авторизации (например, с помощью JWT)
-    payload = {"username": user["username"]}
-    token = jwt.encode(payload, SECRET_KEY, algorithm=ALGORITHM)
-    return token
 
 @router.post("/register")
-def register(user: User):
-    # Выполните проверку уникальности имени пользователя и сохраните данные пользователя в базе данных
-    existing_user = users_collection.find_one({"username": user.username})
+def register(user: UserCreate):
+    # Check if the username or email already exists in the database
+    existing_user = users_collection.find_one({"$or": [{"username": user.username}, {"email": user.email}]})
     if existing_user:
-        return {"error": "Пользователь уже существует"}
-    users_collection.insert_one(user.dict())
-    return {"message": "Пользователь успешно зарегистрирован"}
+        return {"error": "Username or email already exists"}
+
+    # Create a new user in the database with a specified role and return it
+    user_doc = user.dict()
+    user_doc["role"] = "user"  # Set the default role to "user"
+    result = users_collection.insert_one(user_doc)
+    user.id = result.inserted_id
+    return {"message": "User successfully registered", "user": user}
 
 @router.post("/login")
 def login(username: str, password: str):
-    # Выполните проверку учетных данных пользователя и верните токен авторизации
+    # Check the user credentials and return a token if valid
     user = users_collection.find_one({"username": username, "password": password})
     if user:
-        # Создайте токен авторизации (например, с помощью JWT) и верните его
-        token = generate_token(user)
+        # Create a token (e.g., using JWT) and return it
+        token = create_access_token(data={"sub": str(user.id)})
         return {"token": token}
-    return {"error": "Неверный логин или пароль"}
+    return {"error": "Invalid username or password"}
