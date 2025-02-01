@@ -1,8 +1,16 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Depends
+from fastapi.security import OAuth2PasswordBearer
+from pydantic import BaseModel
+from typing import Optional
+from jwt import JWTError
+
+# Import your custom modules
 from models import User
 from database import users_collection
 
 router = APIRouter()
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+HTTP_403_FORBIDDEN = 403
 
 @router.get("/restricted-resource")
 def get_restricted_resource(user: User = Depends(get_current_user)):
